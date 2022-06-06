@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
-        <div>
-            <form action="POST">
+        <div class="for-logIn">
+            <form action="POST" name="form-log" id="form-log" >
                 <div id="for-logIn">
-                    <label for="Name">Name</label><input type="text" id="Log-name" requred/><br>
-                    <label for="Name">Pasword</label><input type="text" id="Log-name" requred/><br>
+                    <label for="Name">Name</label>
+                    <input type="text" id="Log-name" required/><br>
+                    <label for="Name">Pasword</label>
+                    <input type="text" id="Log-name" required/><br>
                 </div>   
-
+                <div>
+                    <button id="btn-submit">Log In</button>
+                    <button  type="reset" id="btn-reset">Cancel</button>
+                </div>
             </form>
+            <div id="div-2">
+                <a href="#">Fogort Password</a><br>
+                <a href="#">Create new account</a>
+            </div>
         </div>
     </body>
 </html>
