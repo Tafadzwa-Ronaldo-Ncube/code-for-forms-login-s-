@@ -1,34 +1,65 @@
-    body{
-        background-color: #ade2e2;
-    }
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
 
- main{
-       margin-top: 200px; 
-    }
+body{
+    background-color: #333;
+}
 
-    #save{
-        padding: 10px;
-        margin-top: 15px;
-        border-radius: 15px;
-        width:150px;
-    }
+input[type="text"],input[type="email"],input[type="phone"],input[type="password"],select{
 
-    #user-name, #user-password,#password2{
-        padding: 10px;
-        border-radius: 12px;
-    }
-    #cancel{
-        margin-top: 15px;
-        padding: 8px;
-        border-radius: 8px;
-        color: #fff;
-        background-color: #4b4747;
-    }
-    label{
-        font-size: 25px;
-    }
+    background-color: transparent;
+    color:#fff;
+    border-color: #333;
+    box-shadow: #c9c5c5;
+    margin-top: 15px;
+    padding: 10px;
+}
 
-    h1{
-        color: #000000;
-        font-family:"Gabriola", Times ;
-    }
+label{
+    color:#fff;
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color:#fff;
+    text-transform: uppercase;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:#fff;
+
+}
+
+#sign-up,#catalog,#about,#home{
+    
+    text-indent: 30px;
+    font-size: 25px;
+}
+
+#save{
+    width: 195px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #29df93f1;
+    border-width: 0px;
+   border-style:none;
+    
+}
+
+#cancel{
+    width: 100px;
+    border-radius:10px;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: #df2929f1;
+    border-width: 0px;
+   border-style:none;
+}
